@@ -8,7 +8,6 @@ let item_container = document.querySelector(".item-container");
 add_button.onclick = function ()
 {
     /*  Test if textbox is empty or not */
-    console.log("ok");
     if(textbox_add_element.value == ""){
         // alert("You must first enter an Element in the Textbox field.\n");
         let error_message = document.getElementById("total-element");
